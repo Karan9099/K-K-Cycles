@@ -17,7 +17,7 @@
                 <img src="30b7911469ee42eea294b1f64276b225 (1).png" width="200px">
             </div>
             <nav>
-                <ul>
+                <ul id="MenuItems">
                     <li class="op"><a href="">Home</a> </li>
                     <li><a href="#Products">Products</a> </li>
                     <li><a href="">About</a> </li>
@@ -26,6 +26,7 @@
                 </ul>
             </nav>
             <img src="http://cdn.onlinewebfonts.com/svg/img_225646.png" width="30px" height="30px">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.sbaw6SNxlzR1xxzXBpCHRQHaFp&pid=Api&P=0&w=219&h=168" class="menu-icon" onclick="menutoggle()">
         </div>
          <div class="row">
              <div class="col-2">
@@ -310,5 +311,17 @@
         </div>
     </div>
 </div>
+<script>
+    var MenuItems=document.getElementById("MenuItems")
+    MenuItems.style.maxHeight="0px";
+    function menutoggle(){
+        if(MenuItems.style.maxHeight=="0px"){
+            MenuItems.style.maxHeight="200px";
+        }
+        else{
+            MenuItems.style.maxHeight="200px"
+        }
+    }
+</script>
 </body>
 </html>
