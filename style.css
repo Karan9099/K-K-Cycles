@@ -121,7 +121,7 @@ p{
      background: #563434;
  }
  .header{
-     background: radial-gradient(#ffd6d6,#ffd6d6);
+     background: radial-gradient(rgb(84, 255, 232),rgb(84, 255, 232));
  }
  .header .row{
      margin-top: 70px;
